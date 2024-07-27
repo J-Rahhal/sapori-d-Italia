@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from "../components/Header.jsx";
+import Intro from "../components/Intro.jsx";
 
 const Homepage = () => {
   const [toggle, setToggle] = useState(false);
@@ -14,6 +15,7 @@ const Homepage = () => {
         toggle={toggle}
         handleClose={toggleMenu}
       />
+      <Intro />
     </>
   );
 };

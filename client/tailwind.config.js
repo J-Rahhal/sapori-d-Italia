@@ -15,7 +15,7 @@ export default {
       "xs-mobile": "320px",
       mobile: "400px",
       "sm-tablet": "768px",
-      tablet: "1114px",
+      tablet: "1024px",
       laptop: "1280px",
       desktop: "1440px",
     },

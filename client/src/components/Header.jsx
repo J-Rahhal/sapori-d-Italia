@@ -14,24 +14,24 @@ const Header = ({ handleToggle, toggle, handleClose }) => {
             toggle={toggle}
             handleClose={handleClose}
           />
-          <h2 className="font-vujahday font-bold xs-mobile:text-2xl mobile:text-3xl text-white">
+          <h2 className="font-vujahday font-bold xs-mobile:text-2xl mobile:text-3xl text-white sm-tablet:text-4xl">
             Sapori D'Italia
           </h2>
           <Link
             to="#"
-            className="font-vujahday text-white xs-mobile:text-xl mobile:text-2xl"
+            className="font-vujahday text-white xs-mobile:text-xl mobile:text-2xl sm-tablet:text-3xl"
           >
             Events
           </Link>
         </div>
 
         <div className="h-1/2 flex items-center justify-center">
-          <h1 className=" text-white uppercase font-bold font-vujahday text-2xl">
+          <h1 className=" text-white uppercase font-bold font-vujahday text-xl sm-tablet:text-5xl">
             Amore Al Primo Morso
           </h1>
         </div>
         <div className="h-1/3 flex items-center justify-center overflow-hidden">
-          <p className=" text-white  font-vujahday text-xl underline underline-offset-4">
+          <p className=" text-white  font-vujahday text-xl underline underline-offset-4 sm-tablet:text-3xl">
             scroll to expolore
           </p>
         </div>
