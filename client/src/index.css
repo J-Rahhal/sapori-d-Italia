@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "PlaywriteHR";
+  src: url("./assets/fonts/PlaywriteHR-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lavishlyyours";
+  src: url("./assets/fonts/LavishlyYours-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "VujahdayScript";
+  src: url("./assets/fonts/VujahdayScript-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HomemadeApple";
+  src: url("./assets/fonts/HomemadeApple-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
