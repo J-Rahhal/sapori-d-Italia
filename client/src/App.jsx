@@ -1,7 +1,18 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Template from "./Template";
+import Homepage from "./pages/Homepage";
 
 const App = () => {
-  return <div className="font-lavishly text-4xl">App</div>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Template />}>
+          <Route index element={<Homepage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
 export default App;
