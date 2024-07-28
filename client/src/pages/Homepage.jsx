@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "../components/Header.jsx";
 import Intro from "../components/Intro.jsx";
+import Menu from "../components/Menu.jsx";
 
 const Homepage = () => {
   const [toggle, setToggle] = useState(false);
@@ -8,6 +9,7 @@ const Homepage = () => {
   const toggleMenu = () => {
     setToggle(!toggle);
   };
+
   return (
     <>
       <Header
@@ -16,6 +18,7 @@ const Homepage = () => {
         handleClose={toggleMenu}
       />
       <Intro />
+      <Menu />
     </>
   );
 };
