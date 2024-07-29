@@ -76,7 +76,7 @@ const Story = () => {
 
     {
       title: (
-        <span className="text-yellow-600 font-playwrite">2045-Present</span>
+        <span className="text-yellow-600 font-playwrite">2015-Present</span>
       ),
       cardTitle: (
         <span className="text-yellow-600 font-playwrite">
