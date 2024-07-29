@@ -3,14 +3,14 @@ import React from "react";
 const Portions = ({ img, itemList }) => {
   return (
     <>
-      <div className="md-tablet:w-1/2 md-tablet:ml-16">
+      <div className="md-tablet:w-1/2 md-tablet:ml-16 desktop:w-1/3">
         <img
           src={img}
           alt="a plate of pasta"
           className="tablet:object-contain w-full h-full"
         />
       </div>
-      <div className="md-tablet:w-1/2 md-tablet:pr-28 font-playwrite flex xs-mobile:flex-col xs-mobile:gap-4 xs-mobile:text-sm sm-tablet:text-lg sm-tablet:my-auto md-tablet:gap-8 laptop:text-2xl">
+      <div className="md-tablet:w-1/2 md-tablet:pr-28 font-playwrite flex xs-mobile:flex-col xs-mobile:gap-4 xs-mobile:text-sm sm-tablet:text-lg sm-tablet:my-auto md-tablet:gap-8 laptop:text-xl desktop:text-3xl desktop:gap-16">
         {itemList.map((item) => {
           return (
             <div

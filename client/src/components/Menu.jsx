@@ -50,7 +50,7 @@ const Menu = () => {
         Menu
       </h2>
       <Categories category={selectCategory} setCategory={setSelectCategory} />
-      <div className="flex  pb-4 xs-mobile:flex-col xs-mobile:gap-8 md-tablet:flex-row md-tablet:gap-12 md-tablet:pt-12  ">
+      <div className="flex  pb-4 xs-mobile:flex-col xs-mobile:gap-8 md-tablet:flex-row md-tablet:gap-12 md-tablet:pt-12">
         {switchPortions()}
       </div>
     </div>

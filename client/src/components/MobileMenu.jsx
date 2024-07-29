@@ -23,7 +23,7 @@ const MobileMenu = ({ onClick, toggle, handleClose }) => {
           <Link to="#">Home</Link>
           <Link to="#">Menu</Link>
           <Link to="#">Our Story</Link>
-          <Link to="#">Contact</Link>
+          <Link to="#">Events</Link>
         </div>
       )}
     </>
