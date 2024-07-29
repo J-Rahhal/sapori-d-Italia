@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Portions from "../components/Portions";
 import Categories from "../components/Categories";
 import Pasta from "../assets/images/pasta.jpg";

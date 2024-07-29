@@ -1,7 +1,7 @@
 import React from "react";
 import header from "../assets/images/header.jpeg";
-import { Link } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Header = ({ handleToggle, toggle, handleClose }) => {
   return (
@@ -17,12 +17,12 @@ const Header = ({ handleToggle, toggle, handleClose }) => {
           <h2 className="font-vujahday font-bold xs-mobile:text-2xl mobile:text-3xl text-white sm-tablet:text-4xl">
             Sapori D'Italia
           </h2>
-          <Link
-            to="#"
+          <AnchorLink
+            href="#events"
             className="font-vujahday text-white xs-mobile:text-xl mobile:text-2xl sm-tablet:text-3xl"
           >
             Events
-          </Link>
+          </AnchorLink>
         </div>
 
         <div className="h-1/2 flex items-center justify-center">

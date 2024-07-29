@@ -3,7 +3,6 @@ import React, { useState } from "react";
 const Categories = ({ category, setCategory }) => {
   const handleCategory = (event) => {
     const myId = event.target.id;
-    console.log(myId);
     setCategory(myId);
   };
   return (

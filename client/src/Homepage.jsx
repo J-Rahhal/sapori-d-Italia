@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Header from "../components/Header.jsx";
-import Intro from "../components/Intro.jsx";
-import Menu from "../components/Menu.jsx";
-import Story from "../components/Story.jsx";
-import Events from "../components/Events.jsx";
-import Footer from "../components/Footer.jsx";
+import Header from "./components/Header.jsx";
+import Intro from "./components/Intro.jsx";
+import Menu from "./components/Menu.jsx";
+import Story from "./components/Story.jsx";
+import Events from "./components/Events.jsx";
+import Footer from "./components/Footer.jsx";
 
 const Homepage = () => {
   const [toggle, setToggle] = useState(false);
