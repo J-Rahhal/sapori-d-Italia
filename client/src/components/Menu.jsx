@@ -45,7 +45,7 @@ const Menu = () => {
   };
 
   return (
-    <div className="px-4">
+    <div className="px-4" id="menu">
       <h2 className="font-vujahday pb-12 xs-mobile:text-4xl mobile:text-5xl sm-tablet:text-7xl tablet:text-9xl ">
         Menu
       </h2>

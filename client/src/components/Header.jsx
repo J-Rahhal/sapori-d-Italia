@@ -5,7 +5,7 @@ import MobileMenu from "./MobileMenu";
 
 const Header = ({ handleToggle, toggle, handleClose }) => {
   return (
-    <div className="h-5/6 relative">
+    <div className="h-5/6 relative" id="home">
       <img src={header} className="h-full w-full object-cover" />
       <div className="bg-black absolute inset-0 opacity-60 z-10">
         <div className="flex justify-between xs-mobile:p-4 mobile:p-6">

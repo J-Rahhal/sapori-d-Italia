@@ -8,7 +8,7 @@ import Seasonal from "../assets/images/seasonal.jpg";
 
 const Events = () => {
   return (
-    <div className="font-playwrite">
+    <div className="font-playwrite" id="events">
       <h2 className="font-vujahday text-3xl font-bold xs-mobile:mx-4 xs-mobile:my-12 md-tablet:text-7xl">
         Events
       </h2>

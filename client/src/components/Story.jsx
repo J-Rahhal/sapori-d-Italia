@@ -97,7 +97,7 @@ const Story = () => {
   ];
 
   return (
-    <div>
+    <div id="our-story">
       <h2 className="font-vujahday text-3xl font-bold xs-mobile:mx-4 xs-mobile:my-12 md-tablet:text-7xl">
         Our Story
       </h2>
