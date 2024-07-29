@@ -32,7 +32,7 @@ const Header = ({ handleToggle, toggle, handleClose }) => {
         </div>
         <div className="h-1/3 flex items-center justify-center overflow-hidden">
           <p className=" text-white  font-vujahday text-xl underline underline-offset-4 sm-tablet:text-3xl">
-            scroll to expolore
+            scroll to explore
           </p>
         </div>
       </div>
